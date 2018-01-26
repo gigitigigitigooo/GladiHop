@@ -1,0 +1,900 @@
+﻿Log file open, 01/15/18 20:32:07
+LogInit:Display: Running engine for game: ProgGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-230513265) SRandInit(-230513265).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105818
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.16-00.32.08:260][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-00.32.08:260][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.16-00.32.08:267][  0]LogInit: Computer: PIXELCOMPILER
+[2018.01.16-00.32.08:267][  0]LogInit: User: Christian
+[2018.01.16-00.32.08:267][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.01.16-00.32.08:268][  0]LogInit: High frequency timer resolution =3.417966 MHz
+[2018.01.16-00.32.08:268][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2018.01.16-00.32.08:268][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.16-00.32.08:268][  0]LogMemory: Process Physical Memory: 272.32 MB used, 272.32 MB peak
+[2018.01.16-00.32.08:268][  0]LogMemory: Process Virtual Memory: 266.95 MB used, 266.95 MB peak
+[2018.01.16-00.32.08:268][  0]LogMemory: Physical Memory: 4745.55 MB used,  27848.24 MB free, 32593.79 MB total
+[2018.01.16-00.32.08:268][  0]LogMemory: Virtual Memory: 629.37 MB used,  27848.24 MB free, 134217728.00 MB total
+[2018.01.16-00.32.08:327][  0]LogInit: Using OS detected language (en-US).
+[2018.01.16-00.32.08:327][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.16-00.32.08:330][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.16-00.32.09:148][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.16-00.32.09:177][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2018.01.16-00.32.09:177][  0]LogD3D11RHI:       12113/0/16296 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.16-00.32.09:178][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.16-00.32.09:178][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.16-00.32.09:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.16-00.32.09:182][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.16-00.32.09:182][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.16-00.32.09:182][  0]LogWindows: EnumDisplayDevices:
+[2018.01.16-00.32.09:182][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2018.01.16-00.32.09:182][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2018.01.16-00.32.09:182][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2018.01.16-00.32.09:182][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2018.01.16-00.32.09:182][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.16-00.32.09:182][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2018.01.16-00.32.09:182][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
+[2018.01.16-00.32.09:182][  0]LogD3D11RHI:      Driver Date: 12-15-2017
+[2018.01.16-00.32.09:182][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.16-00.32.09:193][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.16-00.32.09:215][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.16-00.32.09:263][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Intermediate/Shaders/WorkingDirectory/9352/).
+[2018.01.16-00.32.09:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christian.PixelCompiler/AppData/Local/Temp/UnrealShaderWorkingDir/632E04E5407047DA75EDEDBBCD94144A/'.
+[2018.01.16-00.32.09:263][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.16-00.32.10:267][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.16-00.32.10:309][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.16-00.32.10:351][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.16-00.32.10:393][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.16-00.32.10:437][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.16-00.32.10:479][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.16-00.32.10:521][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.16-00.32.10:563][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.16-00.32.10:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.16-00.32.10:640][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.16-00.32.10:682][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.16-00.32.10:723][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.16-00.32.10:764][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.16-00.32.10:805][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.16-00.32.10:845][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.16-00.32.10:927][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.16-00.32.10:927][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.16-00.32.10:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.16-00.32.11:038][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.16-00.32.11:064][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.16-00.32.11:105][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.16-00.32.11:146][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.16-00.32.11:187][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.16-00.32.11:229][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.16-00.32.11:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.16-00.32.11:625][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.16-00.32.11:732][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.16-00.32.11:748][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.16-00.32.11:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.16-00.32.11:769][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.16-00.32.11:769][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.16-00.32.11:770][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-00.32.11:770][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-00.32.12:058][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-00.32.12:132][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.16-00.32.12:269][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.16-00.32.12:305][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.16-00.32.12:343][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.16-00.32.12:343][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.16-00.32.12:343][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.16-00.32.12:826][  0]LogNetVersion: ProgGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3073506959)
+[2018.01.16-00.32.12:884][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.01.16-00.32.12:924][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.020548 seconds
+[2018.01.16-00.32.12:928][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.16-00.32.12:928][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.16-00.32.12:928][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.16-00.32.12:979][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.16-00.32.14:971][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.16-00.32.15:006][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.16-00.32.15:439][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.16-00.32.15:764][  0]SourceControl: Info Source control is disabled
+[2018.01.16-00.32.15:764][  0]SourceControl: Info Source control is disabled
+[2018.01.16-00.32.15:802][  0]SourceControl: Info Source control is disabled
+[2018.01.16-00.32.15:838][  0]SourceControl: Info Source control is disabled
+[2018.01.16-00.32.16:376][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.16-00.32.16:846][  0]LogEngine: Initializing Engine...
+[2018.01.16-00.32.16:847][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.16-00.32.17:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.16-00.32.17:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.16-00.32.17:136][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.16-00.32.17:155][  0]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.32.17:170][  0]LogInit: FAudioDevice initialized.
+[2018.01.16-00.32.17:210][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-00.32.17:223][  0]LogInit: Texture streaming: Enabled
+[2018.01.16-00.32.17:301][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.16-00.32.17:479][  0]LogInit: Transaction tracking system initialized
+[2018.01.16-00.32.17:726][  0]BlueprintLog: New page: Editor Load
+[2018.01.16-00.32.18:469][  0]LocalizationService: Info Localization service is disabled
+[2018.01.16-00.32.19:186][  0]LogConsoleResponse:Display: 
+[2018.01.16-00.32.19:314][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.16-00.32.19:314][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.16-00.32.19:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/' took 0.01s
+[2018.01.16-00.32.20:133][  0]SourceControl: Info Source control is disabled
+[2018.01.16-00.32.20:133][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Maps/OverWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.16-00.32.20:133][  0]LightingResults: New page: Lighting Build
+[2018.01.16-00.32.20:168][  0]MapCheck: New page: Map Check
+[2018.01.16-00.32.20:168][  0]LightingResults: New page: Lighting Build
+[2018.01.16-00.32.20:355][  0]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.32.20:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.16-00.32.20:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.16-00.32.20:406][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.351ms to complete.
+[2018.01.16-00.32.20:406][  0]LogFileHelpers: Loading map 'OverWorld' took 0.274
+[2018.01.16-00.32.20:472][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-00.32.20:472][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-00.32.20:542][  0]LogCollectionManager: Loaded 0 collections in 0.001034 seconds
+[2018.01.16-00.32.20:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Collections/' took 0.01s
+[2018.01.16-00.32.20:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Developers/Christian/Collections/' took 0.01s
+[2018.01.16-00.32.20:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Collections/' took 0.01s
+[2018.01.16-00.32.20:616][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.16-00.32.20:624][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2018.01.16-00.32.20:678][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.16-00.32.20:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.16-00.32.20:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.16-00.32.20:778][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.16-00.32.20:802][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.16-00.32.20:803][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.16-00.32.20:808][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.16-00.32.20:887][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2018.01.16-00.32.20:999][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.16-00.32.21:056][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.16-00.32.21:056][  0]LogLoad: (Engine Initialization) Total time: 14.16 seconds
+[2018.01.16-00.32.21:056][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.01.16-00.32.21:056][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.16-00.32.21:065][  0]LogOcInput: OculusInput pre-init called
+[2018.01.16-00.32.21:065][  0]LogHMD: Starting GearVRController plugin
+[2018.01.16-00.32.21:080][  0]LogAssetRegistry: Asset discovery search completed in 8.2177 seconds
+[2018.01.16-00.32.21:081][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.16-00.32.21:081][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2018.01.16-00.32.21:084][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.16-00.32.22:082][105]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-00.32.23:783][289]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-00.32.24:124][289]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.16-00.32.25:360][289]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.16-00.32.26:591][403]LogRenderer: Reallocating scene render targets to support 1616x1284 NumSamples 1 (Frame:385).
+[2018.01.16-00.32.41:944][883]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.16-00.33.22:646][626]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.16-00.33.53:792][207]BlueprintLog: New page: Compile WidgetDrag
+[2018.01.16-00.33.54:324][234]LogSavePackage: Save=2.73ms
+[2018.01.16-00.33.54:324][234]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/WidgetDrag4D27711646AFA9CD99338C8470C0B332.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset'
+[2018.01.16-00.33.54:326][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset
+[2018.01.16-00.36.01:051][955]BlueprintLog: New page: Compile HUD
+[2018.01.16-00.36.01:161][955]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.36.01:544][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.16-00.36.01:587][993]LogSavePackage: Save=35.75ms
+[2018.01.16-00.36.01:587][993]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD1EA29EDF4658A1F5F9E691807D99D84E.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.16-00.36.01:589][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.16-00.37.06:727][690]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-00.37.06:736][690]LogBlueprint:Warning: [Compiler DragTo_W] Warning Can't parse default value 'None' for  <None> . Property: ID.
+[2018.01.16-00.37.06:865][690]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'None' for  <None> . Property: ID.
+[2018.01.16-00.37.06:865][690]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.37.06:865][690]LogBlueprint:Warning: [Compiler DragTo_W] Warning [0299.96] Compile of DragTo_W successful, but with 1 Warning(s) [in 138 ms] (/Game/Game/Blueprints/DragTo_W.DragTo_W)
+[2018.01.16-00.37.07:302][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-00.37.07:328][734]LogSavePackage: Save=15.38ms
+[2018.01.16-00.37.07:328][734]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W8E43F2394129099A57D836B5F674885D.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-00.37.07:329][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-00.37.36:111][ 36]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-00.37.36:206][ 36]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.38.32:949][563]BlueprintLog: New page: Compile WidgetDrag
+[2018.01.16-00.38.33:566][616]LogSavePackage: Save=2.43ms
+[2018.01.16-00.38.33:566][616]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/WidgetDrag53D8B7A043CC15F24A4AF9AC9BDBAC27.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset'
+[2018.01.16-00.38.33:567][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset
+[2018.01.16-00.38.41:324][477]BlueprintLog: New page: Compile SlotReciever_W
+[2018.01.16-00.38.41:509][477]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.38.42:099][533]LogSavePackage: Save=19.32ms
+[2018.01.16-00.38.42:099][533]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_WF416870B4ADE0E92CD35A389BD4712CC.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.16-00.38.42:101][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.16-00.39.37:809][916]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-00.39.37:912][916]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.39.38:498][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-00.39.38:528][981]LogSavePackage: Save=20.78ms
+[2018.01.16-00.39.38:528][981]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_WB20D8E604E89D2A3584281A02BF64FC2.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-00.39.38:530][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-00.41.43:475][607]BlueprintLog: New page: Compile ActionItem_W
+[2018.01.16-00.41.43:584][607]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.41.44:424][702]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.16-00.41.44:461][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-00.41.44:461][702]PIE: New page: PIE session: OverWorld (Jan 15, 2018, 4:41:44 PM)
+[2018.01.16-00.41.44:461][702]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.16-00.41.44:462][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001095s)
+[2018.01.16-00.41.44:463][702]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.41.44:463][702]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.01.16-00.41.44:463][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.001948s)
+[2018.01.16-00.41.44:494][702]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.41.44:501][702]LogInit: FAudioDevice initialized.
+[2018.01.16-00.41.44:571][702]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.16-00.41.44:573][702]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.15-20.41.44
+[2018.01.16-00.41.44:573][702]LogWorld: Bringing up level for play took: 0.001256
+[2018.01.16-00.41.44:612][702]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.16-00.41.44:618][702]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld 0.676
+[2018.01.16-00.41.52:618][585]BlueprintLog: New page: Compile WidgetDrag
+[2018.01.16-00.41.53:242][638]LogSavePackage: Save=2.27ms
+[2018.01.16-00.41.53:243][638]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/WidgetDragB20AD4E34FB4E439C7D87FACCD8E1359.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset'
+[2018.01.16-00.41.53:244][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset
+[2018.01.16-00.41.57:594][137]LogSavePackage: Save=23.02ms
+[2018.01.16-00.41.57:594][137]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_W40997133429F2B12580630B07F73CCAA.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.16-00.41.57:595][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.16-00.42.28:487][609]LogSavePackage: Save=22.35ms
+[2018.01.16-00.42.28:487][609]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_W0BF368B147687CBEAFD17D9255923DF2.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.16-00.42.28:489][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.16-00.43.26:193][309]BlueprintLog: New page: Compile WidgetDrag
+[2018.01.16-00.43.30:709][828]BlueprintLog: New page: Compile WidgetDrag
+[2018.01.16-00.43.31:193][864]LogSavePackage: Save=2.40ms
+[2018.01.16-00.43.31:193][864]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/WidgetDrag5EE0E6A84CF0759D0094479C3CB8C2F8.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset'
+[2018.01.16-00.43.31:194][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/WidgetDrag.uasset
+[2018.01.16-00.43.36:125][392]LogSavePackage: Save=19.12ms
+[2018.01.16-00.43.36:125][392]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_WE693EF2D48728BA62E6303860A4A9AFD.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.16-00.43.36:126][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.16-00.43.41:968][ 16]BlueprintLog: New page: Compile SlotReciever_W
+[2018.01.16-00.43.42:066][ 16]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.43.42:509][ 57]LogSavePackage: Save=20.33ms
+[2018.01.16-00.43.42:509][ 57]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_W1138CD594864F115BB2DA3ADCBC7EF0A.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.16-00.43.42:511][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.16-00.43.59:023][930]BlueprintLog: New page: Compile SlotReciever_W
+[2018.01.16-00.43.59:124][930]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.43.59:544][972]LogSavePackage: Save=24.53ms
+[2018.01.16-00.43.59:544][972]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_WACC848384E3D8556B4380A8FFF594C4D.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.16-00.43.59:545][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.16-00.44.00:223][ 52]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.16-00.44.00:242][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-00.44.00:242][ 52]PIE: New page: PIE session: OverWorld (Jan 15, 2018, 4:44:00 PM)
+[2018.01.16-00.44.00:242][ 52]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.16-00.44.00:243][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001106s)
+[2018.01.16-00.44.00:244][ 52]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.44.00:244][ 52]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2018.01.16-00.44.00:244][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.001849s)
+[2018.01.16-00.44.00:278][ 52]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.44.00:285][ 52]LogInit: FAudioDevice initialized.
+[2018.01.16-00.44.00:336][ 52]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.16-00.44.00:338][ 52]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.15-20.44.00
+[2018.01.16-00.44.00:338][ 52]LogWorld: Bringing up level for play took: 0.001135
+[2018.01.16-00.44.00:343][ 52]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld 0.401
+[2018.01.16-00.44.02:653][297]LogBlueprintUserMessages: [SlotReciever_W_C_3] 0
+[2018.01.16-00.44.05:449][603]LogBlueprintUserMessages: [SlotReciever_W_C_4] 1
+[2018.01.16-00.44.06:613][731]LogBlueprintUserMessages: [SlotReciever_W_C_3] 0
+[2018.01.16-00.44.07:365][814]LogBlueprintUserMessages: [SlotReciever_W_C_4] 1
+[2018.01.16-00.44.18:828][161]BlueprintLog: New page: Compile SlotReciever_W
+[2018.01.16-00.44.18:927][161]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.44.19:373][207]LogSavePackage: Save=20.38ms
+[2018.01.16-00.44.19:373][207]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_W743C00F0460D7FABFF436A9C8C230441.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.16-00.44.19:375][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.16-00.44.48:514][484]BlueprintLog: New page: Compile HUD
+[2018.01.16-00.44.48:617][484]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.44.48:923][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.16-00.44.48:968][515]LogSavePackage: Save=38.28ms
+[2018.01.16-00.44.48:968][515]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD7987BABD4D94B50AD57565A2963DBAB5.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.16-00.44.48:970][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.16-00.47.32:078][378]BlueprintLog: New page: Compile HUD
+[2018.01.16-00.47.32:189][378]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.47.32:584][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.16-00.47.32:638][421]LogSavePackage: Save=44.27ms
+[2018.01.16-00.47.32:638][421]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD42101AD242185A4220549381CFE1D575.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.16-00.47.32:640][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.16-00.49.38:636][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/OverWorld' took 0.017
+[2018.01.16-00.49.38:638][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/DragTo_W] ([1] browsable assets)...
+[2018.01.16-00.49.38:638][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/DragTo_W]
+[2018.01.16-00.49.38:669][774]LogSavePackage: Save=21.08ms
+[2018.01.16-00.49.38:669][774]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W_Auto1D1C275CD4A3755946F86F898A0E18168.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/DragTo_W_Auto1.uasset'
+[2018.01.16-00.49.38:670][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/DragTo_W_Auto1.uasset
+[2018.01.16-00.49.38:671][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/ActionItem_W] ([1] browsable assets)...
+[2018.01.16-00.49.38:671][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/ActionItem_W]
+[2018.01.16-00.49.38:701][774]LogSavePackage: Save=22.99ms
+[2018.01.16-00.49.38:701][774]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_W_Auto177C540924A0696C4A7E2BC8750446091.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/ActionItem_W_Auto1.uasset'
+[2018.01.16-00.49.38:702][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/ActionItem_W_Auto1.uasset
+[2018.01.16-00.49.38:702][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/HUD] ([1] browsable assets)...
+[2018.01.16-00.49.38:702][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/HUD]
+[2018.01.16-00.49.38:759][774]LogSavePackage: Save=50.36ms
+[2018.01.16-00.49.38:759][774]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD_Auto12A6FFE2948BC4F45D3982CB7D38215E1.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/HUD_Auto1.uasset'
+[2018.01.16-00.49.38:760][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/HUD_Auto1.uasset
+[2018.01.16-00.49.38:760][774]LogFileHelpers: Auto-saving content packages took 0.123
+[2018.01.16-00.50.44:242][414]LogEditorTransaction: Undo Add Node
+[2018.01.16-00.52.23:468][331]BlueprintLog: New page: Compile HUD
+[2018.01.16-00.52.23:600][331]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.52.23:978][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.16-00.52.24:053][369]LogSavePackage: Save=65.30ms
+[2018.01.16-00.52.24:053][369]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD2228C0084BA12EE3ADD2ABAF4A9B8DE9.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.16-00.52.24:055][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.16-00.52.30:432][883]LogSavePackage: Save=101.52ms
+[2018.01.16-00.52.30:432][883]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Character_Player230265594F4F5B01AEA43D8D98F17B12.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/Character_Player.uasset'
+[2018.01.16-00.52.30:433][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/Character_Player.uasset
+[2018.01.16-00.52.31:175][930]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.16-00.52.31:195][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-00.52.31:195][930]PIE: New page: PIE session: OverWorld (Jan 15, 2018, 4:52:31 PM)
+[2018.01.16-00.52.31:195][930]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.16-00.52.31:196][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001075s)
+[2018.01.16-00.52.31:196][930]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.52.31:196][930]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.01.16-00.52.31:197][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.001807s)
+[2018.01.16-00.52.31:228][930]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.52.31:235][930]LogInit: FAudioDevice initialized.
+[2018.01.16-00.52.31:287][930]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.16-00.52.31:289][930]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.15-20.52.31
+[2018.01.16-00.52.31:289][930]LogWorld: Bringing up level for play took: 0.001165
+[2018.01.16-00.52.31:297][930]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld -0.644
+[2018.01.16-00.52.34:416][102]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.52.34:721][119]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.52.37:374][269]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.52.37:374][269]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.52.42:926][583]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.17:321][330]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.17:321][330]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.29:882][ 39]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array Tags [3/2]!
+[2018.01.16-00.53.30:583][ 79]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.30:583][ 79]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.30:601][ 80]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.33:147][224]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.33:147][224]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.33:165][225]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.36:005][385]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.36:005][385]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.36:022][386]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.39:217][566]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.39:217][566]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.39:977][609]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.39:977][609]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.40:783][654]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array Tags [4/1]!
+[2018.01.16-00.53.41:283][682]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.41:283][682]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.53.43:905][831]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.53.43:905][831]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.12:453][626]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.16-00.54.12:471][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-00.54.12:471][626]PIE: New page: PIE session: OverWorld (Jan 15, 2018, 4:54:12 PM)
+[2018.01.16-00.54.12:471][626]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.16-00.54.12:472][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001355s)
+[2018.01.16-00.54.12:473][626]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.54.12:473][626]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.01.16-00.54.12:473][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.002271s)
+[2018.01.16-00.54.12:502][626]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.54.12:509][626]LogInit: FAudioDevice initialized.
+[2018.01.16-00.54.12:562][626]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.16-00.54.12:564][626]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.15-20.54.12
+[2018.01.16-00.54.12:564][626]LogWorld: Bringing up level for play took: 0.001068
+[2018.01.16-00.54.12:570][626]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld 0.628
+[2018.01.16-00.54.20:156][286]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.20:156][286]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.20:168][287]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.25:978][800]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.25:978][800]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.25:990][801]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.30:150][166]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.30:150][166]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.37:770][840]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.37:770][840]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.43:487][341]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.43:487][341]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.43:498][342]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.51:427][ 43]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.51:427][ 43]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.54.51:438][ 44]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.57:303][560]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.54.57:303][560]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.55.03:775][131]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array Tags [3/1]!
+[2018.01.16-00.55.04:768][219]LogBlueprintUserMessages: [Character_Player_142] Forward
+[2018.01.16-00.55.04:768][219]LogBlueprintUserMessages: [Character_Player_142] RotateRight
+[2018.01.16-00.55.26:627][442]LogSlate: Took 0.013588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.16-00.56.28:153][133]BlueprintLog: New page: Compile HUD
+[2018.01.16-00.56.28:294][133]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.56.28:713][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.16-00.56.28:787][160]LogSavePackage: Save=64.23ms
+[2018.01.16-00.56.28:787][160]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD153D04A74ACCE7504E1C9FB7461E72E8.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.16-00.56.28:788][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.16-00.57.00:767][998]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-00.57.00:910][998]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.57.01:975][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-00.57.02:003][101]LogSavePackage: Save=20.72ms
+[2018.01.16-00.57.02:003][101]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W72C95B7C44C2AE17AFE23B878FF956CD.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-00.57.02:005][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-00.57.02:645][164]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.16-00.57.02:667][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-00.57.02:668][164]PIE: New page: PIE session: OverWorld (Jan 15, 2018, 4:57:02 PM)
+[2018.01.16-00.57.02:668][164]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.16-00.57.02:669][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2018.01.16-00.57.02:669][164]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.16-00.57.02:669][164]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2018.01.16-00.57.02:669][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.001808s)
+[2018.01.16-00.57.02:704][164]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-00.57.02:710][164]LogInit: FAudioDevice initialized.
+[2018.01.16-00.57.02:763][164]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.16-00.57.02:765][164]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.15-20.57.02
+[2018.01.16-00.57.02:765][164]LogWorld: Bringing up level for play took: 0.001178
+[2018.01.16-00.57.02:770][164]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld 0.829
+[2018.01.16-00.57.29:308][352]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-00.57.29:450][352]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-00.57.29:822][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-00.57.29:849][377]LogSavePackage: Save=20.55ms
+[2018.01.16-00.57.29:849][377]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_WA5F1DA664079C981B99E83B3A32A77E0.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-00.57.29:851][377]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x942b41bfe8 [can pipeline])
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 1 (Re-using existing connection! (#14) with host datarouter.ol.epicgames.com)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.204.15.242) port 443 (#14))
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 3 (upload completely sent off: 1399 out of 1399 bytes)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 6 (Closing connection 14)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E8FF935-4057-E661-C419-19960659F894%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a14ac0384764f4e4114e4d9bb38c368e%7C7a03dd74e9a24775aa784d75d5dbc930%7C71e67a56-c102-4474-95aa-468188998cc9&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.16-01.00.35:251][226]LogHttp:Warning: 00000094C68BE380: libcurl info message cache 9 (Closing connection 15)
+[2018.01.16-01.01.21:107][931]LogHttp:Warning: 00000094C6459000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.16-01.01.21:107][931]LogHttp:Warning: 00000094C6459000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.16-01.01.21:107][931]LogHttp:Warning: 00000094C6459000: libcurl info message cache 1 (Closing connection 16)
+[2018.01.16-01.02.00:166][786]LogSavePackage: Save=20.76ms
+[2018.01.16-01.02.00:166][786]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/OverWorld_Auto2568892C24BDEC7E82E890DB94660878F.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Maps/OverWorld_Auto2.umap'
+[2018.01.16-01.02.00:167][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Maps/OverWorld_Auto2.umap
+[2018.01.16-01.02.00:168][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/OverWorld' took 0.053
+[2018.01.16-01.02.00:168][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2018.01.16-01.02.00:170][786]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/DragTo_W] ([1] browsable assets)...
+[2018.01.16-01.02.00:170][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/DragTo_W]
+[2018.01.16-01.02.00:199][786]LogSavePackage: Save=22.06ms
+[2018.01.16-01.02.00:199][786]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W_Auto256CC72334695DE39FED961B451ED02E1.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/DragTo_W_Auto2.uasset'
+[2018.01.16-01.02.00:199][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Autosaves/Game/Game/Blueprints/DragTo_W_Auto2.uasset
+[2018.01.16-01.02.00:199][786]LogFileHelpers: Auto-saving content packages took 0.030
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_13.WidgetTree_515.REINST_DragTo_W_C_14.WidgetTree_520.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Game/Game/Blueprints/DragWidget.DragWidget_C:WidgetTree.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.REINST_DragTo_W_C_36:WidgetTree.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.REINST_DragTo_W_C_22:WidgetTree.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_8.WidgetTree_108.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_7.WidgetTree_107.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_3.WidgetTree_28.REINST_DragTo_W_C_1.WidgetTree_33.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_4.WidgetTree_34.REINST_DragTo_W_C_2.WidgetTree_39.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_5.WidgetTree_40.REINST_DragTo_W_C_3.WidgetTree_45.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_6.WidgetTree_46.REINST_DragTo_W_C_4.WidgetTree_51.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_6.WidgetTree_106.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_5.WidgetTree_105.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_4.WidgetTree_104.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_9.WidgetTree_488.REINST_DragTo_W_C_12.WidgetTree_493.Border_0
+[2018.01.16-01.02.37:131][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_2.WidgetTree_455.REINST_DragTo_W_C_9.WidgetTree_460.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_2.WidgetTree_154.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_7.WidgetTree_476.REINST_DragTo_W_C_8.WidgetTree_481.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_10.WidgetTree_494.REINST_DragTo_W_C_13.WidgetTree_499.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_1.WidgetTree_656.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.REINST_DragTo_W_C_71:WidgetTree.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.REINST_DragTo_W_C_73:WidgetTree.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Game/Game/Blueprints/DragTo_W.DragTo_W_C:WidgetTree.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_6:DragTo_W_C_11.WidgetTree_708.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be Border /Game/Game/Blueprints/DragWidget.DragWidget:WidgetTree.Border_0 or Border /Engine/Transient.World_8:HUD_C_17.WidgetTree_700.DragTo_W_157.WidgetTree_705.Border_0
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.REINST_DragTo_W_C_22:WidgetTree.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_8.WidgetTree_108.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_7.WidgetTree_107.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_6.WidgetTree_106.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_5.WidgetTree_105.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_3.WidgetTree_28.REINST_DragTo_W_C_1.WidgetTree_33.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_4.WidgetTree_34.REINST_DragTo_W_C_2.WidgetTree_39.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_5.WidgetTree_40.REINST_DragTo_W_C_3.WidgetTree_45.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_6.WidgetTree_46.REINST_DragTo_W_C_4.WidgetTree_51.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_4.WidgetTree_104.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_9.WidgetTree_488.REINST_DragTo_W_C_12.WidgetTree_493.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_1.WidgetTree_656.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.REINST_DragTo_W_C_73:WidgetTree.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.REINST_DragTo_W_C_36:WidgetTree.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.REINST_DragTo_W_C_71:WidgetTree.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_2.WidgetTree_154.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_2.WidgetTree_455.REINST_DragTo_W_C_9.WidgetTree_460.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_7.WidgetTree_476.REINST_DragTo_W_C_8.WidgetTree_481.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_10.WidgetTree_494.REINST_DragTo_W_C_13.WidgetTree_499.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_13.WidgetTree_515.REINST_DragTo_W_C_14.WidgetTree_520.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_8:HUD_C_17.WidgetTree_700.DragTo_W_157.WidgetTree_705.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Game/Game/Blueprints/DragTo_W.DragTo_W_C:WidgetTree.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogUObjectHash:Warning: Ambiguous search, could be BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1 or BorderSlot /Engine/Transient.World_6:DragTo_W_C_11.WidgetTree_708.Border_0.BorderSlot_1
+[2018.01.16-01.02.37:132][583]LogProperty:Warning: Illegal TEXT reference to a private object in external package (BorderSlot /Engine/Transient.World_8:HUD_C_8.WidgetTree_482.REINST_DragTo_W_C_10.WidgetTree_487.Border_0.BorderSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_2).  Import failed...
+[2018.01.16-01.02.37:132][583]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'BorderSlot'Border_0.BorderSlot_1''
+[2018.01.16-01.02.56:331][ 92]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-01.02.56:541][ 92]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-01.02.57:095][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-01.02.57:124][132]LogSavePackage: Save=22.36ms
+[2018.01.16-01.02.57:124][132]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_WC44091BE45CD7E4D91673EB395BF7DE3.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-01.02.57:126][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-01.03.42:097][572]LogHttp:Warning: 00000094AEBA8A00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.01.16-01.03.42:097][572]LogHttp:Warning: 00000094AEBA8A00: libcurl info message cache 0 (  Trying 192.168.123.123...)
+[2018.01.16-01.03.42:097][572]LogHttp:Warning: 00000094AEBA8A00: libcurl info message cache 1 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.01.16-01.03.42:097][572]LogHttp:Warning: 00000094AEBA8A00: libcurl info message cache 2 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.01.16-01.03.42:097][572]LogHttp:Warning: 00000094AEBA8A00: libcurl info message cache 3 (Closing connection 17)
+[2018.01.16-01.04.20:208][444]BlueprintLog: New page: Compile DragTo_W
+[2018.01.16-01.04.20:343][444]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.16-01.04.20:767][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.16-01.04.20:798][473]LogSavePackage: Save=21.05ms
+[2018.01.16-01.04.20:798][473]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_WD340861E433CCE5CCD3100B15C9A84F5.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.16-01.04.20:800][473]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.16-01.04.22:995][651]LogSavePackage: Save=20.12ms
+[2018.01.16-01.04.22:995][651]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/OverWorldAD87DA1748370A15F77BBEBC459DB158.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Maps/OverWorld.umap'
+[2018.01.16-01.04.22:997][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Maps/OverWorld.umap
+[2018.01.16-01.04.25:747][793]LogSavePackage: Save=22.75ms
+[2018.01.16-01.04.25:747][793]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_WC9605095403B214E90295E94DE11AD39.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.16-01.04.25:749][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.16-01.04.25:806][793]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-01.04.25:807][793]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-01.04.25:978][794]Cmd: QUIT_EDITOR
+[2018.01.16-01.04.26:919][794]LogExit: Preparing to exit.
+[2018.01.16-01.04.27:938][794]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/' was aborted.
+[2018.01.16-01.04.27:964][794]LogExit: Editor shut down
+[2018.01.16-01.04.27:968][794]LogExit: Transaction tracking system shut down
+[2018.01.16-01.04.28:048][794]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.16-01.04.28:048][794]LogExit: Object subsystem successfully closed.
+[2018.01.16-01.04.28:071][794]LogD3D11RHI: Shutdown
+[2018.01.16-01.04.28:071][794]LogD3D11RHI: CleanupD3DDevice
+[2018.01.16-01.04.28:135][794]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.16-01.04.28:146][794]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.16-01.04.28:146][794]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.16-01.04.28:147][794]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Collections/' was aborted.
+[2018.01.16-01.04.28:147][794]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Developers/Christian/Collections/' was aborted.
+[2018.01.16-01.04.28:147][794]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Collections/' was aborted.
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.16-01.04.28:147][794]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.16-01.04.28:148][794]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.16-01.04.28:360][794]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.16-01.04.28:361][794]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.16-01.04.28:361][794]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.16-01.04.28:361][794]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.16-01.04.28:361][794]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.16-01.04.28:361][794]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.16-01.04.28:416][794]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.16-01.04.28:423][794]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.16-01.04.28:435][794]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.16-01.04.28:436][794]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.16-01.04.28:436][794]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.16-01.04.28:436][794]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.16-01.04.28:436][794]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.16-01.04.28:436][794]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.16-01.04.28:437][794]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.16-01.04.28:538][794]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.16-01.04.28:795][794]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.16-01.04.28:796][794]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.16-01.04.28:797][794]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.16-01.04.28:799][794]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.16-01.04.28:866][794]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.16-01.04.28:866][794]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/' was aborted.
+[2018.01.16-01.04.28:866][794]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.16-01.04.28:866][794]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.16-01.04.28:868][794]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.16-01.04.28:869][794]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.16-01.04.28:952][794]LogDerivedDataCache: Shutdown
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.16-01.04.28:952][794]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.16-01.04.28:953][794]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.16-01.04.28:953][794]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.16-01.04.28:953][794]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.01.16-01.04.28:953][794]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E8FF935-4057-E661-C419-19960659F894%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a14ac0384764f4e4114e4d9bb38c368e%7C7a03dd74e9a24775aa784d75d5dbc930%7C71e67a56-c102-4474-95aa-468188998cc9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.16-01.04.28:953][794]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E8FF935-4057-E661-C419-19960659F894%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a14ac0384764f4e4114e4d9bb38c368e%7C7a03dd74e9a24775aa784d75d5dbc930%7C71e67a56-c102-4474-95aa-468188998cc9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.16-01.04.28:953][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.29:454][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.29:954][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.30:455][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.30:955][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.31:456][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.31:956][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.32:457][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.32:957][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.33:457][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.33:958][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.34:458][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.34:958][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.35:458][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.35:959][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.36:459][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.36:960][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.37:460][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.37:961][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.38:461][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.38:962][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.39:463][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.39:963][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.40:464][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.40:965][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.41:466][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.41:966][794]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.01.16-01.04.42:467][794]LogHttp:Warning: 00000094C75B5180: libcurl info message cache 4 (Closing connection 18)
+[2018.01.16-01.04.42:467][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.42:968][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.43:468][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.43:969][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.44:470][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.44:971][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.45:471][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.45:972][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.46:472][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.46:972][794]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x942b41bfd0 [serially])
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 1 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 2 (  Trying 192.168.123.123...)
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 3 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 4 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.01.16-01.04.47:472][794]LogHttp:Warning: 000000948B576080: libcurl info message cache 5 (Closing connection 19)
+[2018.01.16-01.04.47:503][794]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.16-01.04.47:504][794]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.16-01.04.47:504][794]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.16-01.04.47:504][794]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.16-01.04.47:504][794]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.16-01.04.47:504][794]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.16-01.04.47:505][794]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.16-01.04.47:505][794]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.16-01.04.47:505][794]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.16-01.04.47:507][794]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.16-01.04.47:510][794]LogExit: Exiting.
+[2018.01.16-01.04.47:519][794]Log file closed, 01/15/18 21:04:47

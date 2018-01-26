@@ -1,0 +1,378 @@
+﻿Log file open, 01/14/18 22:16:33
+LogInit:Display: Running engine for game: ProgGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(852578743) SRandInit(852578743).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.626807
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.15-02.16.33:614][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.15-02.16.33:614][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.15-02.16.33:630][  0]LogInit: Computer: PIXELCOMPILER
+[2018.01.15-02.16.33:630][  0]LogInit: User: Christian
+[2018.01.15-02.16.33:630][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.01.15-02.16.33:630][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2018.01.15-02.16.33:630][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2018.01.15-02.16.33:630][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-02.16.33:630][  0]LogMemory: Process Physical Memory: 272.45 MB used, 272.45 MB peak
+[2018.01.15-02.16.33:630][  0]LogMemory: Process Virtual Memory: 267.01 MB used, 267.01 MB peak
+[2018.01.15-02.16.33:630][  0]LogMemory: Physical Memory: 4198.18 MB used,  28395.61 MB free, 32593.79 MB total
+[2018.01.15-02.16.33:630][  0]LogMemory: Virtual Memory: 629.37 MB used,  28395.61 MB free, 134217728.00 MB total
+[2018.01.15-02.16.33:798][  0]LogInit: Using OS detected language (en-US).
+[2018.01.15-02.16.33:798][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.15-02.16.33:808][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.15-02.16.34:997][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.15-02.16.35:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2018.01.15-02.16.35:024][  0]LogD3D11RHI:       12113/0/16296 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.15-02.16.35:025][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.15-02.16.35:025][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.15-02.16.35:025][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.15-02.16.35:030][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.15-02.16.35:031][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.15-02.16.35:031][  0]LogWindows: EnumDisplayDevices:
+[2018.01.15-02.16.35:031][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2018.01.15-02.16.35:031][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2018.01.15-02.16.35:031][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2018.01.15-02.16.35:031][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2018.01.15-02.16.35:031][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.15-02.16.35:031][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2018.01.15-02.16.35:031][  0]LogD3D11RHI:   Driver Version: 388.71 (internal:23.21.13.8871, unified:388.71)
+[2018.01.15-02.16.35:031][  0]LogD3D11RHI:      Driver Date: 12-15-2017
+[2018.01.15-02.16.35:031][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.15-02.16.35:043][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.15-02.16.35:080][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.15-02.16.35:132][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Intermediate/Shaders/WorkingDirectory/8056/).
+[2018.01.15-02.16.35:132][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christian.PixelCompiler/AppData/Local/Temp/UnrealShaderWorkingDir/E39B6AE1432DBAED2C01F99991EFC797/'.
+[2018.01.15-02.16.35:133][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.15-02.16.36:406][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.15-02.16.36:456][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.15-02.16.36:501][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.15-02.16.36:546][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.15-02.16.36:592][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.15-02.16.36:636][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.15-02.16.36:681][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.15-02.16.36:725][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.15-02.16.36:765][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.15-02.16.36:810][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.15-02.16.36:854][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.15-02.16.36:898][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.15-02.16.36:942][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.15-02.16.36:987][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.15-02.16.37:030][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.15-02.16.37:117][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.15-02.16.37:117][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.15-02.16.37:151][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.15-02.16.37:241][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.15-02.16.37:268][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.15-02.16.37:314][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.15-02.16.37:359][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.15-02.16.37:402][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.15-02.16.37:446][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.15-02.16.37:446][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.15-02.16.37:941][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache: Loaded boot cache 0.29s 90MB C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.15-02.16.38:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.15-02.16.38:255][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.15-02.16.38:267][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.15-02.16.38:279][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.15-02.16.38:283][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.15-02.16.38:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.15-02.16.38:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.15-02.16.39:107][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.15-02.16.39:244][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.15-02.16.39:419][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.15-02.16.39:468][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.15-02.16.39:511][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.15-02.16.39:511][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.15-02.16.39:511][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.15-02.16.40:286][  0]LogNetVersion: ProgGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3073506959)
+[2018.01.15-02.16.40:365][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.01.15-02.16.40:410][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025963 seconds
+[2018.01.15-02.16.40:415][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.15-02.16.40:415][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.15-02.16.40:415][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.15-02.16.40:472][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.15-02.16.44:053][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.15-02.16.44:091][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.15-02.16.44:642][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.15-02.16.45:035][  0]SourceControl: Info Source control is disabled
+[2018.01.15-02.16.45:036][  0]SourceControl: Info Source control is disabled
+[2018.01.15-02.16.45:084][  0]SourceControl: Info Source control is disabled
+[2018.01.15-02.16.45:128][  0]SourceControl: Info Source control is disabled
+[2018.01.15-02.16.45:775][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.15-02.16.46:315][  0]LogEngine: Initializing Engine...
+[2018.01.15-02.16.46:317][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.15-02.16.46:543][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.15-02.16.46:543][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.15-02.16.46:680][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.15-02.16.46:703][  0]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.15-02.16.46:721][  0]LogInit: FAudioDevice initialized.
+[2018.01.15-02.16.46:762][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Christian.PixelCompiler/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.15-02.16.46:775][  0]LogInit: Texture streaming: Enabled
+[2018.01.15-02.16.46:865][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.15-02.16.47:087][  0]LogInit: Transaction tracking system initialized
+[2018.01.15-02.16.47:380][  0]BlueprintLog: New page: Editor Load
+[2018.01.15-02.16.48:286][  0]LocalizationService: Info Localization service is disabled
+[2018.01.15-02.16.49:087][  0]LogConsoleResponse:Display: 
+[2018.01.15-02.16.49:309][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.15-02.16.49:309][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.15-02.16.50:217][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/' took 0.01s
+[2018.01.15-02.16.50:272][  0]SourceControl: Info Source control is disabled
+[2018.01.15-02.16.50:274][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Maps/OverWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.15-02.16.50:275][  0]LightingResults: New page: Lighting Build
+[2018.01.15-02.16.50:314][  0]MapCheck: New page: Map Check
+[2018.01.15-02.16.50:314][  0]LightingResults: New page: Lighting Build
+[2018.01.15-02.16.50:505][  0]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.15-02.16.50:517][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.15-02.16.50:528][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.15-02.16.50:575][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.72ms to complete.
+[2018.01.15-02.16.50:576][  0]LogFileHelpers: Loading map 'OverWorld' took 0.303
+[2018.01.15-02.16.50:705][  0]LogCollectionManager: Loaded 0 collections in 0.000987 seconds
+[2018.01.15-02.16.50:801][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Collections/' took 0.01s
+[2018.01.15-02.16.50:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Developers/Christian/Collections/' took 0.01s
+[2018.01.15-02.16.50:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Collections/' took 0.01s
+[2018.01.15-02.16.50:802][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.15-02.16.50:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2018.01.15-02.16.50:874][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.15-02.16.50:982][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.15-02.16.51:084][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.15-02.16.51:231][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.15-02.16.51:303][  0]LogSlate: Took 0.001385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.15-02.16.51:306][  0]LogSlate: Took 0.001217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.15-02.16.51:308][  0]LogSlate: Took 0.001102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.15-02.16.51:411][  0]LogRenderer: Reallocating scene render targets to support 1616x1284 NumSamples 1 (Frame:1).
+[2018.01.15-02.16.51:610][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.15-02.16.51:678][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.15-02.16.51:678][  0]LogLoad: (Engine Initialization) Total time: 20.54 seconds
+[2018.01.15-02.16.51:678][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2018.01.15-02.16.51:678][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.15-02.16.52:018][  0]LogOcInput: OculusInput pre-init called
+[2018.01.15-02.16.52:018][  0]LogHMD: Starting GearVRController plugin
+[2018.01.15-02.16.52:039][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.15-02.16.52:358][  1]LogAssetRegistry: Asset discovery search completed in 12.0160 seconds
+[2018.01.15-02.16.52:360][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.15-02.16.52:360][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.01.15-02.17.08:016][ 48]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.15-02.17.08:049][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-02.17.08:050][ 48]PIE: New page: PIE session: OverWorld (Jan 14, 2018, 6:17:08 PM)
+[2018.01.15-02.17.08:050][ 48]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.15-02.17.08:052][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001801s)
+[2018.01.15-02.17.08:053][ 48]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.15-02.17.08:053][ 48]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2018.01.15-02.17.08:053][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.002753s)
+[2018.01.15-02.17.08:075][ 48]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.15-02.17.08:082][ 48]LogInit: FAudioDevice initialized.
+[2018.01.15-02.17.08:154][ 48]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.15-02.17.08:157][ 48]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.14-22.17.08
+[2018.01.15-02.17.08:157][ 48]LogWorld: Bringing up level for play took: 0.001234
+[2018.01.15-02.17.08:200][ 48]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.01.15-02.17.08:208][ 48]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld 0.135
+[2018.01.15-02.17.19:866][421]LogBlueprintUserMessages: [Character_Player_142] 1
+[2018.01.15-02.17.24:612][979]LogSlate: Took 0.001367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.15-02.17.24:984][979]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2018.01.15-02.17.25:505][979]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.15-02.17.25:585][979]LogSlate: Took 0.002029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.15-02.17.25:725][980]LogSlate: Took 0.001283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.15-02.18.26:860][322]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.15-02.18.42:908][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.18.42:939][192]LogSavePackage: Save=18.36ms
+[2018.01.15-02.18.42:939][192]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_WAAF7B38D4D1D67FF5CF5CB863F45F75F.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.18.42:941][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.21.06:391][435]BlueprintLog: New page: Compile HUD
+[2018.01.15-02.21.06:517][435]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.21.06:971][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.15-02.21.07:008][485]LogSavePackage: Save=32.69ms
+[2018.01.15-02.21.07:008][485]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD77AC078A41419343BAAF0CBF063F7A1D.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.15-02.21.07:010][485]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.15-02.21.48:629][814]LogSlate: Took 0.010679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.15-02.22.09:529][588]BlueprintLog: New page: Compile ActionItem_W
+[2018.01.15-02.22.09:652][588]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.22.10:145][619]LogSavePackage: Save=26.05ms
+[2018.01.15-02.22.10:145][619]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_W2BC261FA44D373A262958BA1D1ED1D00.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.15-02.22.10:147][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.15-02.22.31:023][882]BlueprintLog: New page: Compile DragTo_W
+[2018.01.15-02.22.31:122][882]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.22.31:575][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.22.31:593][922]LogSavePackage: Save=13.58ms
+[2018.01.15-02.22.31:593][922]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W331A9C6D4DAE07BF8F9A518C8F1A12D9.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.22.31:595][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.25.13:145][907]BlueprintLog: New page: Compile ActionItem_W
+[2018.01.15-02.25.13:254][907]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.25.13:801][964]LogSavePackage: Save=26.97ms
+[2018.01.15-02.25.13:801][964]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_W889A07EB47FF5B81B526CE914D4ED2FA.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.15-02.25.13:803][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.15-02.26.41:431][875]BlueprintLog: New page: Compile Game_W
+[2018.01.15-02.26.41:522][875]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.26.41:942][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/Game_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/Game_W.uasset" SILENT=true
+[2018.01.15-02.26.41:951][920]LogSavePackage: Save=3.47ms
+[2018.01.15-02.26.41:951][920]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/Game_WB969D42B4557BC394637EFB9F0179F6F.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/Game_W.uasset'
+[2018.01.15-02.26.41:953][920]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/Game_W.uasset
+[2018.01.15-02.26.56:073][597]LogLinker: Can't find file '/Game/Game/Blueprints/SlotReciever_W'
+[2018.01.15-02.26.56:074][597]LogLinker: Can't find file '/Game/Game/Blueprints/SlotReciever_W'
+[2018.01.15-02.26.56:162][597]LogMetaData: Removing '/Game/Game/Blueprints/SlotReciever_W.SlotReciever_W_C' ref from Metadata '/Game/Game/Blueprints/Game_W.PackageMetaData'
+[2018.01.15-02.26.56:162][597]LogMetaData: Removing '/Game/Game/Blueprints/SlotReciever_W.SKEL_SlotReciever_W_C' ref from Metadata '/Game/Game/Blueprints/Game_W.PackageMetaData'
+[2018.01.15-02.26.56:194][597]LogSavePackage: Save=3.69ms
+[2018.01.15-02.26.56:194][597]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_W02354C6F4781EAF79A2F02B70ED0A5FB.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.15-02.26.56:195][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.15-02.27.56:704][561]LogSlate: Took 0.001963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.15-02.28.00:215][973]BlueprintLog: New page: Compile SlotReciever_W
+[2018.01.15-02.28.00:303][973]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.28.00:805][ 28]LogSavePackage: Save=2.85ms
+[2018.01.15-02.28.00:805][ 28]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/SlotReciever_WA3D07EB64FFE60607F959AB4CA9E909F.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset'
+[2018.01.15-02.28.00:807][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/SlotReciever_W.uasset
+[2018.01.15-02.28.08:574][947]BlueprintLog: New page: Compile HUD
+[2018.01.15-02.28.08:682][947]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.28.09:197][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/HUD" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset" SILENT=true
+[2018.01.15-02.28.09:234][  5]LogSavePackage: Save=32.68ms
+[2018.01.15-02.28.09:234][  5]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/HUD1C854C884961E0A260FD55BAC4F316B9.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset'
+[2018.01.15-02.28.09:236][  5]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/HUD.uasset
+[2018.01.15-02.28.11:080][199]BlueprintLog: New page: Compile DragTo_W
+[2018.01.15-02.28.11:182][199]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.28.11:631][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.28.11:647][240]LogSavePackage: Save=11.82ms
+[2018.01.15-02.28.11:647][240]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W6B2B575F4CA2C2CBFD869F9D8E5F53F2.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.28.11:649][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.28.46:237][166]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.15-02.30.18:229][394]BlueprintLog: New page: Compile DragTo_W
+[2018.01.15-02.30.18:337][394]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.30.18:863][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.30.18:888][452]LogSavePackage: Save=19.85ms
+[2018.01.15-02.30.18:888][452]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W92DC922D4753FE7AE02F818446A8F4BF.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.30.18:890][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.30.26:360][280]BlueprintLog: New page: Compile ActionItem_W
+[2018.01.15-02.30.26:524][280]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.30.26:861][308]LogSavePackage: Save=27.30ms
+[2018.01.15-02.30.26:861][308]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_WD70F0B434DC29855133904BCB28C5902.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.15-02.30.26:862][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.15-02.30.41:529][915]BlueprintLog: New page: Compile ActionItem_W
+[2018.01.15-02.30.41:677][915]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.30.42:074][949]LogSavePackage: Save=27.28ms
+[2018.01.15-02.30.42:074][949]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/ActionItem_WBFD0C98B49F7382452439CB277EEFD88.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset'
+[2018.01.15-02.30.42:076][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/ActionItem_W.uasset
+[2018.01.15-02.31.17:538][ 16]BlueprintLog: New page: Compile DragTo_W
+[2018.01.15-02.31.17:645][ 16]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.15-02.31.18:172][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.31.18:195][ 74]LogSavePackage: Save=19.01ms
+[2018.01.15-02.31.18:195][ 74]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W60F1CE4F4C6E13F70F766BB6E55B8E62.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.31.18:197][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.31.19:500][225]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.15-02.31.19:522][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-02.31.19:523][225]PIE: New page: PIE session: OverWorld (Jan 14, 2018, 6:31:19 PM)
+[2018.01.15-02.31.19:523][225]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.15-02.31.19:524][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001194s)
+[2018.01.15-02.31.19:525][225]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.15-02.31.19:525][225]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2018.01.15-02.31.19:525][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.002207s)
+[2018.01.15-02.31.19:560][225]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.15-02.31.19:567][225]LogInit: FAudioDevice initialized.
+[2018.01.15-02.31.19:620][225]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.15-02.31.19:622][225]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.14-22.31.19
+[2018.01.15-02.31.19:622][225]LogWorld: Bringing up level for play took: 0.001149
+[2018.01.15-02.31.19:627][225]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld -0.445
+[2018.01.15-02.31.27:876][ 57]LogBlueprintUserMessages: [Character_Player_142] 1
+[2018.01.15-02.31.37:876][167]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.15-02.31.37:894][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-02.31.37:894][167]PIE: New page: PIE session: OverWorld (Jan 14, 2018, 6:31:37 PM)
+[2018.01.15-02.31.37:894][167]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_OverWorld
+[2018.01.15-02.31.37:896][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001071s)
+[2018.01.15-02.31.37:896][167]LogAIModule: Creating AISystem for world OverWorld
+[2018.01.15-02.31.37:896][167]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2018.01.15-02.31.37:896][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/OverWorld.OverWorld to /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld (0.001797s)
+[2018.01.15-02.31.37:926][167]LogInit: XAudio2 using 'HDMI-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.15-02.31.37:932][167]LogInit: FAudioDevice initialized.
+[2018.01.15-02.31.37:988][167]LogLoad: Game class is 'ProgGame_GM_C'
+[2018.01.15-02.31.37:990][167]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_OverWorld.OverWorld up for play (max tick rate 0) at 2018.01.14-22.31.37
+[2018.01.15-02.31.37:990][167]LogWorld: Bringing up level for play took: 0.001063
+[2018.01.15-02.31.37:995][167]PIE: Info Play in editor start time for /Game/Game/Maps/UEDPIE_0_OverWorld -0.078
+[2018.01.15-02.31.43:125][687]LogBlueprintUserMessages: [Character_Player_142] 0
+[2018.01.15-02.31.48:245][213]LogBlueprintUserMessages: [Character_Player_142] 1
+[2018.01.15-02.32.01:849][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/DragTo_W" FILE="../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset" SILENT=true
+[2018.01.15-02.32.01:871][776]LogSavePackage: Save=18.66ms
+[2018.01.15-02.32.01:871][776]LogSavePackage: Moving '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Saved/DragTo_W82CEA2E245F217DB6C499387C372A128.tmp' to '../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset'
+[2018.01.15-02.32.01:873][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian.PixelCompiler/Documents/Unreal Projects/ProgGame/Content/Game/Blueprints/DragTo_W.uasset
+[2018.01.15-02.32.13:298][966]LogUObjectBase:Warning: Object is not registered
+[2018.01.15-02.32.13:454][966]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.156 s
+[2018.01.15-02.32.13:454][966]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.15-02.32.13:454][966]LogOutputDevice:Error: 
+[2018.01.15-02.32.13:454][966]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: Stack: 
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007062E2B6
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000703DB8C2
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000703F1E86
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006A9B7556
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000006790D27B
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000668324AA
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000666D72CC
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000666DA6D9
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000667F8035
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BCCDB57
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BCD4B61
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BEF48D3
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BD2F604
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BD077FC
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006BCF814C
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000706215B0
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007060B7D1
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000706233DB
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000070607B22
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: USER32.dll!0x00000000A17724FD
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: USER32.dll!0x00000000A1772357
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000070623CE6
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor.exe!0x00000000DC65DB44
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor.exe!0x00000000DC64F0B0
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor.exe!0x00000000DC64F12A
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor.exe!0x00000000DC660CF9
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: UE4Editor.exe!0x00000000DC6625F7
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A0DC13D2
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: ntdll.dll!0x00000000A34854F4
+[2018.01.15-02.32.13:455][966]LogOutputDevice:Error: 
+[2018.01.15-02.32.13:459][966]LogStats:                SubmitErrorReport -  0.000 s
